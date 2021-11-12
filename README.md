@@ -13,6 +13,8 @@ Heroku는 Java, Node.js, Python등 여러 언어를 지원하는 클라우드 Pa
 [Heroku 배포](https://ebbnflow.tistory.com/220)
 <br>
 [배포후 수정 방법](https://velog.io/@ansfls/Heroku%EB%A1%9C-%EA%B0%84%EB%8B%A8%ED%95%98%EA%B2%8C-%EC%9B%B9-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0)
+<br>
+[추가 자세한 정리](https://hazel-developer.tistory.com/40)
 
 ## 진행하면서 생긴 Error
 
