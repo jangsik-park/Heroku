@@ -26,4 +26,13 @@ Heroku는 Java, Node.js, Python등 여러 언어를 지원하는 클라우드 Pa
   
 - 또 하나, Heroku내에서 처음 탐색(?)하는 언어를 python으로 설정하는 방법을 통해 Error를 해결했었는데  [이건 찾아봐야겠다](https://github.com/jangsik-park/Heroku) (까먹음) <br>
 - 처음 배포 할 때는 ```git init```을 통해 초기화 해주는 과정이 필요하다
+
+
+## 결과
+
+![image](https://user-images.githubusercontent.com/56535821/141412263-e658e257-0899-4754-9556-02ffdcaefb19.png)
+
+[웹사이트 주소](https://jangapp.herokuapp.com/)
+
+
   
