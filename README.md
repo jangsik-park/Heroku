@@ -18,11 +18,12 @@ Heroku는 Java, Node.js, Python등 여러 언어를 지원하는 클라우드 Pa
 
 ### 1. heroku에 파일 올릴 때 requirements.txt 안에 파일과 관련된 오류
 
-- ex) JPype1==C:\Anaconda\envs\flask\JPype1-1.0.2-cp38-cp38-win_amd64.whl [형태](https://github.com/jangsik-park/Heroku)로 되어 있는 것을 JPype1==1.0 이런 식으로 수정함
+- ex) JPype1==C:\Anaconda\envs\flask\JPype1-1.0.2-cp38-cp38-win_amd64.whl [형태](https://github.com/jangsik-park/Heroku)로 되어 있는 것을 ```JPype1==1.0``` 이런 식으로 수정함
   - 애초에 새로운 가상환경을 만들어서 필수적인 라이브러리만 설치하면 깔끔하다.<br>
-- <p>tensorflow의 용량이 [너무 커서](https://github.com/jangsik-park/Heroku) tensorflow-cpu를 설치함 (애초에 gpu사용은 heroku에서 불가능하다.) <br></p>
-- <p>git remote add [주소]를 해주지 않아서 Error 발생함</p>
-  - git remote -v를 통해 현재 어떤 github 주소를 바라보고 있는지 확인해야 한다.<br>
+-   tensorflow의 용량이 [너무 커서](https://github.com/jangsik-park/Heroku) ```tensorflow-cpu```를 설치함 (애초에 gpu사용은 heroku에서 불가능하다.) <br>
+-   ```git remote add [주소] ``` 를 해주지 않아서 Error 발생함 <br>
+    - ```git remote -v``` 를 통해 현재 어떤 github 주소를 바라보고 있는지 확인해야 한다.<br>
   
-- <p> 또 하나, Heroku내에서 처음 탐색(?)하는 언어를 python으로 설정하는 방법을 통해 Error를 해결했었는데 [이건 찾아봐야겠다.](https://github.com/jangsik-park/Heroku) (까먹음)     </p>  
+- 또 하나, Heroku내에서 처음 탐색(?)하는 언어를 python으로 설정하는 방법을 통해 Error를 해결했었는데  [이건 찾아봐야겠다](https://github.com/jangsik-park/Heroku) (까먹음) <br>
+- 처음 배포 할 때는 ```git init```을 통해 초기화 해주는 과정이 필요하다
   
